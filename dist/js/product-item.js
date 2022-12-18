@@ -10,7 +10,7 @@ const render = (produk) => {
 
   const ainnerHTML = `
       <div class="card-product h-full group">
-        <div style="background-image: url('../dist/img/${produk.foto}');" class="bg-cover bg-center h-72 relative">
+        <div style="background-image: url('dist/img/${produk.foto}');" class="bg-cover bg-center h-72 relative">
           <div class="pt-8 bg-slate-900/60 h-full text-slate-100 font-semibold text-center hidden group-hover:block animate__animated animate__fadeIn">
             <p class="font-bold tracking-wider mb-2 normal-case">${produk.kategori}</p>
             <ul>
